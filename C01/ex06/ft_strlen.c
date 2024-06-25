@@ -6,8 +6,8 @@ int ft_strlen(char *str)
 
     while (*str)
     {
-        *str++; // nzid dak str l caractère suivant
-        i++;    // w nzid compteur
+        *str++;
+        i++;  
     }
 
     return i; // envoyer le count a main
