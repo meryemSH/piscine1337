@@ -3,7 +3,7 @@
 void ft_swap(int *a, int *b)
 {
 
-    int stock = *a;// en accesde a la valeur li katpointi 3liha 
+    int stock = *a;
     *a = *b;
     *b = stock;
 }
